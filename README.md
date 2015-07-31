@@ -11,16 +11,15 @@ Features
 
 * Greatly reduce amount of spam, ads and swearing.
 * Create your own rules, handlers and gain full control over your server.
-* Many other fully configurable features, from beginners to proffesionals.
+* Many other fully configurable features, from beginners to professionals.
 
-Check out http://www.spigotmc.org/resources/chatcontrol.271/ for more information.
+Check out https://www.spigotmc.org/resources/chatcontrol-pro.10258/ for more information.
 
 Links
 -----
 
-* [Homepage](http://www.spigotmc.org/resources/chatcontrol.271)
-* [ChatControl's Wiki](https://github.com/kangarko/ChatControl/wiki/Frequently-asked-questions-or-issues)
-* [Releases](http://www.spigotmc.org/resources/chatcontrol.271/history)
+* [Homepage](https://www.spigotmc.org/resources/chatcontrol-pro.10258/)
+* [ChatControl's Wiki](https://github.com/kangarko/ChatControl/wiki/)
 
 Dave Thomas, founder of OTI, godfather of the Eclipse strategy:
 
