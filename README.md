@@ -1,6 +1,9 @@
 ChatControl
 ===========
 
+NB: This page only displays files for 5th generation of the plugin! (Not 6.x.x and upwards)
+-------------------------------------------------------------------------------------------
+
 ChatControl is an open source chat management and formatting solution for bukkit that significantly reduces amount of spam, ads, swearing and bots on your server! This also comes with many other fresh and unique features.
 
 Features
