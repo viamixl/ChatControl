@@ -2,9 +2,16 @@
 ## Eclipse
 #################
 
-localization/
 precompiled/
-src/
+
+src/*
+!src/kangarko
+src/kangarko/*
+!src/kangarko/chatcontrol
+src/kangarko/chatcontrol/*
+!src/kangarko/chatcontrol/utils
+src/kangarko/chatcontrol/utils/*
+!src/kangarko/chatcontrol/utils/Permissions.java
 
 *.pydevproject
 .project

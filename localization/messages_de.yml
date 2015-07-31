@@ -1,0 +1,73 @@
+# ---------------------------------------------------------
+# Diese Datei beinhaltet die Meisten Benachrichtigungen
+# und bietet den einfachsten Weg der Übersetzung des Plugins.
+#
+# Wenn du diese Sprache verändern willst, kopiere
+# diese Datei in den Plugins Ordner und starte die Editierung.
+# Zum Beispiel: plugins/ChatControl/localization/messages_de.yml
+# Es wird trotzdem mit den neuen Änderungen in den nächsten Updates versorgt.
+#
+# Wenn keine Nachricht angezeigt werden soll, dann setze diese Nachricht auf 'none'
+# Nachrichten unterstützen Variablen mit % und Farb-Codes mit & character
+# Bei Übersetzungsfehlern kontaktiere DJ_1420 im Forum von SpigotMC. By translation fails please contact DJ_1420 in the forum of SpigotMC.
+# ---------------------------------------------------------
+
+Cannot:
+  Broadcast_Empty_Message: '&cNachricht auf %event ist leer. Kein Broadcast.'
+  Chat_While_Muted: '&7Du kannst nicht chatten, während der Chat gemutet ist!'
+  Command_While_Muted: '&7Du kannst dieses Kommando nicht benutzen, während der Chat gemutet ist!'
+  Chat_Until_Moved: '&7Du kannst erst chatten, wenn du dich bewegst!'
+
+Anti_Bot:
+  Rejoin_Message: '%prefix\n\n&6Bitte warte &7%time %seconds&6 bevor du dich erneut einloggst!'
+
+Anti_Spam:
+  Similar_Message: '&cBitte wiederhole nicht die gleiche (oder ähnliche) Nachricht.'
+  Similar_Command: '&cBitte wiederhole nicht das gleiche (oder ähnliche) Kommando.'
+  Too_Much_Caps: '&cBitte benutze nicht so viele CAPS!'
+  Command_Wait_Message: '&Bitte warte %time %seconds bis zu deinem nächsten Kommando.'
+  Chat_Wait_Message: '&cBitte warte %time %seconds bis zu deiner nächsten Nachricht.'
+
+Chat_Mute:
+  Mute: '&7Chat wurde erfolgreich gemuted.'
+  Unmute: '&7Chat ist nicht länger gemuted.'
+  Mute_Broadcast: '%server &6%player hat den Chat gemutet.'
+  Unmute_Broadcast: '%server &6%player hat den Chat aktiviert.'
+  Anonymous_Mute_Broadcast: '%server hat den Chat global gemutet.'
+  Anonymous_Unmute_Broadcast: '%server hat den Chat global entmutet.'
+
+Chat_Clear:
+  Broadcast: '%server &6%player hat den Chat bereinigt.'
+  Anonymous_Broadcast: '%server hat den Chat bereinigt.'
+  Console_Player_Message: '%prefix &7Die Konsole wurde erfolgreich bereinigt.'
+  Console_Message: '&7Die Konsole wurde von %player bereinigt.'
+  Chat_Staff_Message: '&7^----- [ == &fChat wurde von %player bereinigt &7== ] -----^'
+
+Signs:
+  Duplicate_Text: '%server Du kannst keine Schilder mit dem gleichen Text machen.'
+  Duplicate_Text_Staff: '&c%player hat ein Schild mit der gleichen Nachricht: %message, erstellt.'
+  Broke_When_Violated_A_Rule: Dein Schild ist abgesprungen, es muss irgendwas falsch damit sein.
+
+Usage:
+  Fake_Command: '%prefix Usage: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
+
+Update_Available: '&2Eine neue Version von &3ChatControl&2 ist verfügbar.\n&2Aktuelle Version:
+  &f%current&2; Neue Version: &f%new\n&2Du kannst diese Benachrichtigung in der Konfiguration deaktivieren.'
+
+No_Permission: '&cKeine Berechtigung (%perm).'
+Reload_Complete: '%prefix &2Die Konfiguration wurde erfolgreich neu geladen.'
+Reload_Failed: '%prefix &cNeu laden der Konfiguration ist fehlgeschlagen. Der Fehler war: &4%error'
+Wrong_Parameters: '&cFalsche Parameter oder keine Berechtigung.'
+Wrong_Arguments: '&cFalsche Argumente. Tippe &6/chc list&c für eine Liste von Kommandos (Englisch).'
+
+General:
+  Player_Join: Spieler hat gejoint
+  Player_Quit: Spieler hat verlassen
+  Player_Kick: Spieler wurde gekickt
+  Prefix: '&8[&3ChatControl&8]&7'
+  Server_Prefix: '&8[&4Server&8]&c'
+  Console: '&cserver'
+  Reason: '&7Grund: &f%reason'
+  Sign: SIGN
+  Command: COMMAND
+  Seconds: second, seconds
