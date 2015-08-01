@@ -323,6 +323,7 @@ Updater:
   Enabled: true
   Notify: true
   Download: true
+  Check_Notes: true
 
 Writer:
   # Save chat to file?
