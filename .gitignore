@@ -2,7 +2,6 @@
 ## Eclipse
 #################
 
-precompiled/
 
 src/*
 !src/kangarko
