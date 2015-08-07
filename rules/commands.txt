@@ -7,8 +7,8 @@
 # For help, see notes in rules.txt file.
 # -------------------------------------------------------------------------------
 
-# Prevent /op command
-match ^/op
+# Prevent /op command but ignore other commands that start with /op like /openinv
+match ^/op\b
 ignore perm chatcontrol.bypass.rules
 id /op
 then warn &bYes, we are giving away OPs. Seriously, what did you expect?!
