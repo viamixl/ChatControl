@@ -174,7 +174,7 @@ Messages:
       # Messages displayed in all worlds.
       global:
       - Hey, %player, did you know that this server is running ChatControl?
-      - 'Visit developer website: &ahttp://dopice.sk/dZj'
+      - 'Visit developer website: &ahttps://goo.gl/CT3Zdl'
       
       # In this world will be displayed both global messages and these specified below.
       hardcore:
@@ -344,7 +344,7 @@ Regex_Timeout_Milis: 100
 
 # To customize a locale, make file in localization/messages_LOCALENAME.yml
 # It will be filled with all the values.
-# Current available locales: en (english), de (german), sk (slovak), cz (czech) and es (spanish)
+# Current available locales: en (english), de (german), sk (slovak), cz (czech), fr (french) and es (spanish)
 Locale: en
 
 # Time of some plugin's operations is measured.
