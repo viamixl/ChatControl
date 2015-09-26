@@ -72,6 +72,8 @@ then deny
 # -------------------------------------------------------------------------------
 # Predefined swear filters are found below. Credits to owenmaple for contributing.
 # If you are not familiar with regular expressions, see ChatControl's first forum page at Spigot
+# PS: Some of the rules are commented out, either because they are not that much necessary or
+# can possibly catch up regular words too. Remove the '#' before 'match' and 'handle' to enable them.
 # -------------------------------------------------------------------------------
 # They can be safely removed (or edited, if you are familiar with regex!)
 # -------------------------------------------------------------------------------

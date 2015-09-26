@@ -361,6 +361,10 @@ Verbose_Rules: true
 # If you are having any issues, disable this and enable Verbose and Debug.
 Silent_Startup: true
 
+# Plugin saves some player data, such as their last message or command + date of writing them, for antispam to use.
+# You can decide if these data should be reset when the player quits. Recommended in lobby (when on bungee), but not elsewhere.
+Reset_Cache_On_Quit: false
+
 # Enable if you are having issues, will tell you detailed info in the console.
 Debug: false
 
