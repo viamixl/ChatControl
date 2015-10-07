@@ -323,6 +323,8 @@ Updater:
   Enabled: true
   Notify: true
   Download: true
+  
+  # Disable important announcements after the plugin has been loaded
   Check_Notes: true
 
 Writer:

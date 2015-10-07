@@ -92,6 +92,9 @@ public class Permissions {
 		
 		// TODO New in 5.0.0 Allow player to bypass custom rules and handlers.
 		public static final String RULES = "chatcontrol.bypass.rules";
+	
+		// TODO New in 5.2.1 Allow player to bypass vanilla's "disconnect.spam" kick when sending messages too quickly.
+		public static final String SPAM_KICK = "chatcontrol.bypass.spamkick";
 	}
 
 	public class Notify {

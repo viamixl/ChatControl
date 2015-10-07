@@ -45,7 +45,7 @@ match [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz
 # If you want to whitelist your server, it is only necessary to add it once in format:
 # website.domain (example: procraft.com)
 # To add more domains simply add them after the last one and divide by |
-ignore string youtube.com|imgur.com
+ignore string minecraft:|youtube.com|imgur.com
 id 2
 before strip [\(\[\]\)]
 handle as advertisement
