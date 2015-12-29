@@ -242,7 +242,7 @@ Rules:
   # Enabled on signs?
   Check_Signs: true
   
-  # Needs ProtocolLib. If enabled, messages will be checked agains rules/packets.txt
+  # Needs ProtocolLib. If enabled, messages will be checked against rules/packets.txt
   # which supports replacing even bukkit / plugin messages.
   Check_Packets: true
 

@@ -1,8 +1,8 @@
 # -------------------------------------------------------------------------------
-# This is the very first implementation of ChatControl's
-# new custom rule engine codenamed ChatCeaser By Kangarko
+# This is the implementation of ChatControl's
+# custom rule engine codenamed ChatCeaser By Kangarko
 #
-# Accepts following operators (without <>)
+# It accepts following operators (without <>)
 # match <regex> (A valid regular expression string to match the message.)
 # id <number/string> (Assign an id/name to the rule. Used in messages and handlers.)
 # ignore string <string/regex> (If the message matches given string it will be ignored.)
