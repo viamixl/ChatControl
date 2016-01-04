@@ -1,20 +1,26 @@
-# ---------------------------------------------------------
-# This is the main configuration for ChatControl plugin
-# 
-# For general support and updates visit:
+# -----------------------------------------------------------------------
+#         Welcome to the main configuration of ChatControl
+# -----------------------------------------------------------------------
+# [General support and updates]
 # http://www.spigotmc.org/resources/chatcontrol.271
 # 
-# For configuration help visit:
+# [Default configuration with comments]
 # https://github.com/kangarko/ChatControl/blob/master/config.yml
-# 
-# SLOVAK DEVELOPER FTW
-# Supports color codes with the '&' character.
 #
-# Most of the messages (warning messages, etc) are found
-# in localization. To customize it, make a new file in
-# localization/messages_LOCALENAME.yml and it will be filled
-# with all the default values and kept with sync.
-# ---------------------------------------------------------
+# [Tips]
+# - Color codes are supported with the '&' character, see
+#   http://minecraftwiki.net/wiki/Formatting_codes for usage
+#
+# - To not display a message, set it to 'none'.
+#
+# - Unicode /special characters/ only work when files are saved in 
+#   UTF-8 encoding. Tested on Notepad++, WordPad on Windows is broken.
+#
+# - Most of the messages (warnings, etc) are found in the localization. 
+#   To customize it, make a new file in "localization/messages_LOCALE.yml" 
+#   (Replace LOCALE with the actuall locale name, by default 'en'). It
+#   will be filled with all default values and kept with sync on updates.
+# -----------------------------------------------------------------------
 
 Anti_Bot:
   # Delay between player logging in again in seconds.
