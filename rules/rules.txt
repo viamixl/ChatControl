@@ -36,17 +36,19 @@
 # (Notice the operator strip which removes specified characters BEFORE the message is checked.)
 match \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
 id 1
+before replace dot|\[|\]|\{|\}|\(|\) with .
 before strip [\(\[\]\)]
 handle as advertisement
 
 # Domain/URL filter.
-# You can add new domains by inserting '|your_domain' after '|me' (e.g. '|me|io' for also blocking '.io' domains)
-match [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me)\b
+# You can add new domains by inserting '|your_domain' after '|io' (e.g. '|io|pl' for also blocking '.pl' domains)
+match [a-zA-Z0-9\-\.]+\s?(\.|dot|\(dot\)|-|;|:|,)\s?(com|org|net|cz|co|uk|sk|biz|mobi|xxx|eu|me|io)\b
 # If you want to whitelist your server, it is only necessary to add it once in format:
 # website.domain (example: procraft.com)
 # To add more domains simply add them after the last one and divide by |
 ignore string minecraft:|youtube.com|imgur.com
 id 2
+before replace dot|\[|\]|\{|\}|\(|\) with .
 before strip [\(\[\]\)]
 handle as advertisement
 
