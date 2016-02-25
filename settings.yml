@@ -251,6 +251,12 @@ Rules:
   # Needs ProtocolLib. If enabled, messages will be checked against rules/packets.txt
   # which supports replacing even bukkit / plugin messages.
   Check_Packets: true
+  
+  Packets:
+  
+    # Since Minecraft 1.7x, every message is a chat component. Unpacking it will bring better/more expected results.
+    # Disable if experiencing issues with chat formatting plugins. Messages with hover/click effects won't be checked.
+    Deserialize_Json: true
 
 Console:
   Filter:
