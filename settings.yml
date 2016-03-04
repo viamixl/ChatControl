@@ -295,7 +295,10 @@ Sound_Notify:
   Notify_Only_If_Prefixed_With: '@'
   
   # Format: bukkit_sound_name, volume (float), pitch (float)
-  Sound: CHICKEN_EGG_POP, 1F, 1.5F
+  # NB! In Minecraft 1.9, the sound names has changed! If you are using 1.8.x or older, the default sound name is 'CHICKEN_EGG_POP'
+  # Sounds for 1.9+: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  # Sounds for <=1.8: https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/Sound.java?until=be55b4f5b8274c1124fe957e6a3259789f6e9747 
+  Sound: ENTITY_CHICKEN_EGG, 1F, 1.5F
   Enabled_In_Commands:
   - msg
   - tell
