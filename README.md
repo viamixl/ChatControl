@@ -1,8 +1,8 @@
+Attention: This page is dedicated to the free version. Premium users, please write on the forums.
+-------------------------------------------------------------------------------------------------
+
 ChatControl
 ===========
-
-Attention: This page contains files only for the free version.
---------------------------------------------------------------
 
 ChatControl is an open source chat management and formatting solution for bukkit that significantly reduces amount of spam, ads, swearing and bots on your server! This also comes with many other fresh and unique features.
 
