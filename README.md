@@ -13,12 +13,12 @@ Features
 * Create your own rules, handlers and gain full control over your server.
 * Many other fully configurable features, from beginners to professionals.
 
-Check out https://www.spigotmc.org/resources/chatcontrol-pro.10258/ for more information.
+Check out https://spigotmc.org/resources/271 for more information.
 
 Links
 -----
 
-* [Homepage](https://www.spigotmc.org/resources/chatcontrol-pro.10258/)
+* [Homepage](https://www.spigotmc.org/resources/271/)
 * [ChatControl's Wiki](https://github.com/kangarko/ChatControl/wiki/)
 
 Dave Thomas, founder of OTI, godfather of the Eclipse strategy:
