@@ -1,4 +1,4 @@
-Attention: This page is dedicated to the free version. Premium users, please write on the forums.
+Attention: This page is dedicated to the free version. Premium users, please visit [this link](https://github.com/kangarko/ChatControl-Pro/issues) to get support.
 -------------------------------------------------------------------------------------------------
 
 ChatControl
