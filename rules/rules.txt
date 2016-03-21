@@ -146,6 +146,7 @@ handle as swear
 
 # Blocks 'anal'
 match \b(a+(\W|\d|_)*n+(\W|\d|_)*a+(\W|\d|_)*l+(\W|\d|_)*)
+ignore string analog
 handle as swear
 
 # Blocks 'wanker'
