@@ -20,7 +20,7 @@ YOU DON'T NEED TO STICK TO THE TEMPLATE AS LONG AS ALL RELEVANT DATA ARE PROVIDE
 
 2. ChatControl version:
 
-3. Relevant plugins: (usually those whose functions can interferrer, like DeluxeChat, ...)
+3. Relevant plugins: (usually those whose functions can interferrer, like DeluxeChat etc.)
 
 4. How to reproduce.
 
