@@ -1,6 +1,6 @@
 name: ChatControl
 main: kangarko.chatcontrol.ChatControl
-version: 5.3.0
+version: 5.3.3
 author: kangarko
 soft-depend: [AuthMe, Essentials, Multiverse-Core, ProtocolLib, SimpleClans, Towny, Vault]
 commands: 
@@ -12,7 +12,7 @@ permissions:
         default: false
     chatcontrol.notify.whenmentioned:
         default: true
-        description: Play sound to player when notified by another player and function is enabled.
+        description: Play a sound when the player is notified and the function is enabled.
     chatcontrol.broadcaster.view:
         default: true
         description: View timed messages from auto broadcaster.

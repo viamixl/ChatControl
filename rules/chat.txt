@@ -1,6 +1,5 @@
 # -------------------------------------------------------------------------------
-# This file manages rules in chat (not commands)
-# and includes rules from rules.txt.
+# This file manages rules in chat (not commands) and includes rules from rules.txt.
 #
 # File by default contain examples that you can safely remove or change.
 #
@@ -12,10 +11,10 @@ match \bdis\b
 then replace this
 
 match \bwanna\b
-then replace want
+then replace want to
 
 match \bgonna\b
-then replace going
+then replace going it
 
 # -------- Prevent asking for a rank
 match (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
@@ -30,7 +29,7 @@ then deny
 # Notice the id, it can be a string and can used multiple times.
 match this server (is (bad|crappy|shitty)|suck)
 id ServerHate
-then rewrite I love this filter!|I can't behave property due to brain damage!|My bad manners was corrected by server.
+then rewrite I love this filter!|I can't behave properly due to brain damage!|My bad manners were corrected by the server.
 then notify chatcontrol.notify.rulesalert &8[&7ID %ruleID&8] &7%player: &f%message
 then console kick %player &cYour rating will be processed by our staff soon. \nThanks and welcome back!
 

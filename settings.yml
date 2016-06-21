@@ -382,6 +382,10 @@ Silent_Startup: true
 # You can decide if these data should be reset when the player quits. Recommended in lobby (when on bungee), but not elsewhere.
 Reset_Cache_On_Quit: false
 
+# Set to true if the \n operator does not work for you.
+# Before that, please ensure you've saved the file in an encoding that supports new line operator.
+Enforce_New_Line: false
+
 # Enable if you are having issues, will tell you detailed info in the console.
 Debug: false
 
