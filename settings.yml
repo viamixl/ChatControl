@@ -361,7 +361,7 @@ Regex_Timeout_Milis: 100
 
 # To customize a locale, make file in localization/messages_LOCALENAME.yml
 # It will be filled with all the values.
-# Current available locales: en (english), de (german), sk (slovak), cz (czech), fr (french) and es (spanish)
+# Current available locales: en (english), de (german), sk (slovak), cz (czech), fr (french), nl (holand), se (swedish) and es (spanish)
 Locale: en
 
 # Time of some plugin's operations is measured.
