@@ -14,7 +14,7 @@ match \bwanna\b
 then replace want to
 
 match \bgonna\b
-then replace going it
+then replace going to
 
 # -------- Prevent asking for a rank
 match (can|may|would you like if) i (have|be|become|get|has) (op|admin|mod|builder)
