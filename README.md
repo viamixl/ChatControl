@@ -1,5 +1,6 @@
-Attention: Having premium? Read [this](https://github.com/kangarko/ChatControl/wiki/Submitting-Issues) and get support [here](https://github.com/kangarko/ChatControl-Pro/issues).
--------------------------------------------------------------------------------------------------
+## Attention: Having premium? Read [this](https://github.com/kangarko/ChatControl/wiki/Submitting-Issues) and get support [here](https://github.com/kangarko/ChatControl-Pro/issues).
+
+## Read [this](https://github.com/kangarko/ChatControl/wiki/Submitting-Issues) before submitting an issue.
 
 ChatControl
 ===========
