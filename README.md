@@ -1,4 +1,4 @@
-Attention: Having premium? Visit [this link](https://github.com/kangarko/ChatControl-Pro/issues) to get support.
+Attention: Having premium? Read [this](https://github.com/kangarko/ChatControl/wiki/Submitting-Issues) and get support [here](https://github.com/kangarko/ChatControl-Pro/issues).
 -------------------------------------------------------------------------------------------------
 
 ChatControl
