@@ -63,10 +63,10 @@ General:
   Player_Join: player join
   Player_Quit: player quit
   Player_Kick: player kick
-  Prefix: '&8[&3ChatControl&8]&7'
-  Server_Prefix: '&8[&4Server&8]&c'
-  Console: '&cserver'
-  Reason: '&7Reason: &f%reason'
+  Prefix: '&3[&5&lVia&6&lCraft&3]'
+  Server_Prefix: '&3[&5&lVia&6&lCraft&3]'
+  Console: ''
+  Reason: '&7Grunn: &f%reason'
   Sign: SIGN
   Command: COMMAND
   Seconds: second, seconds
